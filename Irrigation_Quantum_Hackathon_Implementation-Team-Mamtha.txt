@@ -1,0 +1,13 @@
+Quantum-Assisted Irrigation Water Allocation
+1. Novelty
+This project applies QAOA to irrigation and water-resource allocation, modeling crop selection as a binary optimization problem. It combines the QUBO formulation, Ising Hamiltonian mapping, and quantum circuit construction to explore resource-efficient crop allocation under limited water availability.
+2. Level of Qiskit Programming
+The implementation uses Qiskit to construct a three-qubit QAOA circuit with Hadamard, RZ, RZZ, and RX gates. It incorporates classical parameter optimization, quantum-state simulation, measurement sampling, QUBO-to-Ising validation, and a separate reversible quantum comparator demonstration.
+3. Measurable Results and Classical Benchmarking
+For the three-crop example, an exhaustive classical search identifies selecting Crops A and B as optimal, using three water units and achieving a benefit of 8. The QAOA simulation assigns approximately 35.28% probability to this solution. The results demonstrate feasibility and provide a baseline for comparing solution quality and sampling performance.
+4. Technical Quantum Advantage
+QAOA offers a hybrid quantum-classical framework for exploring combinatorial optimization problems. Its potential advantage is investigating complex allocation spaces using parameterized quantum circuits. However, this three-qubit demonstration does not establish quantum advantage over classical optimization, and large-scale benchmarking is required to assess runtime, solution quality, and scalability.
+
+TEAM – Quantum Enthusiast
+Team Lead – Mrs. Mamtha Prajapati
+Team members – 1. Soundarya Guduri 	2. Dr. T. Gowri 
